@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Markers and Tokens" id="00c5d6ee-7c76-4f08-9f42-c954f1a117a0" gameId="a44b7146-44c3-47fd-8b8c-3340fbb0dfe5" gameVersion="1.0.0.0" version="1.0.0.0">
+  <markers>
+    <marker id="289aef4e-91b1-4dad-9a32-d6dacadeea86" name="Food" />
+    <marker id="230d65c4-aa76-4e2a-9f8f-25a174b7c62e" name="FoodMeat" />
+    <marker id="ec300ded-d726-4a64-88a2-6a023a78c369" name="Population" />
+    <marker id="f8f1bdac-eaa3-46dc-b77e-a4d49969ef61" name="Size" />
+    <marker id="2e3052e2-dc07-46b1-81a8-17ba0b816a8d" name="Lock" />
+  </markers>
+</set>
