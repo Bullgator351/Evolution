@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+  <blocks>
+	<block type="text" id="card_name">
+		<location x="100" y="28" />
+		<text color="#301613" size="28" font="fonts/WarnockPro-Regular.ttf" />
+		<wordwrap width="218" height="20" align="center" />
+	</block>
+	<block type="text" id="ability">
+		<location x="40" y="520" />
+		<text color="#301613" size="16" font="fonts/WarnockPro-Regular.ttf" />
+		<wordwrap height="190" width="300" />
+	</block>
+	<block type="text" id="food_cost">
+		<location x="341" y="528" />
+		<text color="#FFFFFF" size="38" font="fonts/WarnockPro-Regular.ttf" />
+		<wordwrap height="30" width="80" align="center" />
+	</block>
+  </blocks>
+  <template src="proxy/trait.jpg" default="True">
+    <matches>
+      <match name="Type" value="Trait" />
+    </matches>
+    <textblocks>
+	  <link block="card_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="ability">
+	   <property name="Text" />
+	  </link>
+	  <link block="food_cost">
+	   <property name="Food" />
+	  </link>
+    </textblocks>
+  </template>
+</templates>
